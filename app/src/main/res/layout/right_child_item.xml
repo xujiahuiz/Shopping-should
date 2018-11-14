@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/fen_right_child_img"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:layout_marginTop="70dp"
+        android:text="凄凄切切群"
+        android:id="@+id/fen_right_child_txt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

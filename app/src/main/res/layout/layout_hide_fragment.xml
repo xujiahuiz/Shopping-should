@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <cn.bingoogolapple.bgabanner.BGABanner
+        android:id="@+id/hide_banner"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></cn.bingoogolapple.bgabanner.BGABanner>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/hide_jiuviewpager"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"></android.support.v4.view.ViewPager>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/hide_receiver"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+</LinearLayout>
